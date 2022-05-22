@@ -1,4 +1,5 @@
 from email.policy import default
+from modulefinder import ModuleFinder
 from django.db import models
 
 # Create your models here.
@@ -15,3 +16,5 @@ class Choice(models.Model):
     votes = models.IntegerField(default=0)
     def __str__(self):
         return self.choice_text
+
+#prova di commit
